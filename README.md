@@ -1,4 +1,10 @@
 # Analog-Digital-clock
+
+Create the face of the clock using SVG file.
+Create the three arms of clock
+calculate the time and degrees needed 
+use the getdate() function to get the exact date and time
+
 1. Divide the clock face into the correct number of sections. Because the second arm splits the clock face into 60 components.
    There are 60 seconds in one minute, so it takes 60 steps to go around the circle. 
 2. That means we have to take 360 degrees, divide it by 60, and then add up how many seconds, or how many segments, we want to move. 
